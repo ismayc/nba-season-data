@@ -1,0 +1,173 @@
+{
+ "season": "2025-26",
+ "outputs": {
+  "2025-26/per100.csv": {
+   "rows": 582,
+   "columns": 18
+  },
+  "2025-26/shooting.csv": {
+   "rows": 582,
+   "columns": 10
+  },
+  "2025-26/box_scores.csv": {
+   "rows": 34810,
+   "columns": 27
+  },
+  "combine/anthro.csv": {
+   "rows": 1873,
+   "columns": 9
+  }
+ },
+ "sources": {
+  "nba/player_box/parquet/player_box_2026.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-data",
+   "commit": "e4a0559bf034cdcea9f896889bdfbeb4fab0bf61",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-data/e4a0559bf034cdcea9f896889bdfbeb4fab0bf61/nba/player_box/parquet/player_box_2026.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2001.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2001.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2002.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2002.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2003.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2003.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2004.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2004.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2005.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2005.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2006.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2006.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2007.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2007.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2008.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2008.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2009.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2009.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2010.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2010.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2011.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2011.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2012.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2012.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2013.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2013.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2014.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2014.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2015.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2015.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2016.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2016.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2017.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2017.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2018.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2018.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2019.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2019.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2020.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2020.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2021.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2021.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2022.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2022.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2023.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2023.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2024.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2024.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2025.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2025.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2026.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2026.parquet"
+  },
+  "nba_stats/draft_combine/parquet/draftcombineplayeranthro_2027.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/draft_combine/parquet/draftcombineplayeranthro_2027.parquet"
+  },
+  "nba_stats/leaguedash/parquet/player_stats_advanced_2026.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/leaguedash/parquet/player_stats_advanced_2026.parquet"
+  },
+  "nba_stats/leaguedash/parquet/player_stats_base_2026.parquet": {
+   "repo": "sportsdataverse/hoopR-nba-stats-data",
+   "commit": "634d595f3742ea6d8d8960be14af75dc7bc1418d",
+   "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-nba-stats-data/634d595f3742ea6d8d8960be14af75dc7bc1418d/nba_stats/leaguedash/parquet/player_stats_base_2026.parquet"
+  }
+ }
+}

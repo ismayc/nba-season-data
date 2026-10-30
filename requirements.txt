@@ -1,0 +1,4 @@
+# Python dependencies for build.py and the checks.
+# The family shares one venv in the parent folder (see basketball-analysis-tools).
+polars
+pytest
